@@ -1,0 +1,30 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore the build folder
+/dist
+
+# Ignore IDE specific files
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore the npm debug log, yarn error log
+npm-debug.log*
+yarn-error.log
+
+# Ignore the bower components folder
+bower_components/
+
+# Ignore files related to API keys or other sensitive data
+.env
